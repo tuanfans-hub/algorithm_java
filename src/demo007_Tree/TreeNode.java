@@ -4,19 +4,19 @@ package demo007_Tree;
  * @time 2026年3月5日 13:56:50
  * <p></p>
  */
-public class TreeNode<T> {
-	public T value;
-	public TreeNode<T> left;
-	public TreeNode<T> right;
+public class TreeNode{
+	public int val;
+	public TreeNode left;
+	public TreeNode right;
 	
-	public TreeNode(T value,TreeNode<T> left,TreeNode<T> right) {
-		this.value = value;
+	public TreeNode(int value,TreeNode left,TreeNode right) {
+		this.val = value;
 		this.left = left;
 		this.right = right;
 	}
 
-	public TreeNode(T value){
-		this.value = value;
+	public TreeNode(int value){
+		this.val = value;
 		this.left = null;
 		this.right = null;
 	}

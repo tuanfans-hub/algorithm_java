@@ -7,7 +7,24 @@ import java.util.Stack;
  * @time 2026年3月5日 14:00:55
  * <p></p>
  */
-public class Demo_007_01_TreeRecusion {
+public class Demo_007_01_TreeRecursion {
+	public static class TreeNode<T>{
+		public T value;
+		public TreeNode<T> left;
+		public TreeNode<T> right;
+
+		public TreeNode(T value, TreeNode<T> left, TreeNode<T> right) {
+			this.value = value;
+			this.left = left;
+			this.right = right;
+		}
+
+		public TreeNode(T value){
+			this.value = value;
+			this.left = null;
+			this.right = null;
+		}
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
