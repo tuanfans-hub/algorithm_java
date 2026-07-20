@@ -3,7 +3,7 @@ package demo007_Tree;
 /**
  * @author TuanFans
  * @time 2026/7/18 21:30
- * <p><a href="https://leetcode.cn/problems/count-complete-tree-nodes/">222. 完全二叉树的节点个数</a></p>
+ * <p><a href="https://leetcode.cn/problems/count-complete-tree-nodes/">222. 完全二叉树的节点个数（时间复杂度小于O(n)）</a></p>
  */
 public class Demo_007_10_CountNodes {
     public int countNodes(TreeNode root) {
